@@ -7,9 +7,9 @@ So it only contains the partition problem and not the model selection and pi
 estimation (which is easy to compute giving the classes estimation, but I only
 upload what I have shown in class)
 To retrieve the article session version run thoses command in your shell (from the root of the project):
--python live_demo.py n
--python live_demo_2.py n
-with n the number of nodes.
+ -python live_demo.py n
+ -python live_demo_2.py n
+ with n the number of nodes.
 
 You will remark that U need almost 2 or 3 times more nodes for the second run to have
 the true partition than for the first run while the only change between the 2 runs
@@ -35,10 +35,10 @@ or
 1) Just modify the rates vector and likelihood matrix in live_demo.py as u wish
 
 # Future updates (in the next days/weeks/months/lifes)
--Pi matrix estimation
--Comparison with EM Algorithms
--Save/load run results
--Few algorithm optimization 
--Big algorithm optimization by using a different data structure to represent edges
+ -Pi matrix estimation
+ -Comparison with EM Algorithms
+ -Save/load run results
+ -Few algorithm optimization 
+ -Big algorithm optimization by using a different data structure to represent edges
 
 Let's keep in touch ! https://github.com/Isma-mz/AOS_6_project
